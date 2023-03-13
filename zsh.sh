@@ -18,6 +18,7 @@ if [ ! "$CDIR" = "$zsh_dir" ]; then
   echo $CDIR > $CDIR/.zsh_dir
 fi
 
+echo $XDG_DATA_HOME/zsh
 mkdir -p $XDG_DATA_HOME/zsh
 
 export ZDOTDIR=$CDIR
