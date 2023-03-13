@@ -45,5 +45,4 @@ else
 fi
 
 tar -xzf $tarname
-mv zsh-5.8-linux-x86_64/* .
 rm $tarname
